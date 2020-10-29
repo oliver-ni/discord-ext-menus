@@ -1,7 +1,7 @@
 from setuptools import setup
 import re
 
-version = ''
+version = '0.1a'
 with open('discord/ext/menus/__init__.py') as f:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read(), re.MULTILINE).group(1)
 
